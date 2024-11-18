@@ -1,0 +1,35 @@
+{
+  "id": 2,
+  "code": "inventory",
+  "name": "sensory preferences inventory",
+  "description":"",
+  "instructions":"answer each question using the scale",
+  "thankyou": "thank you for completing the a/A Sensory",
+  "autoreport": "inventory-results",
+  "copyright": "&copy; 2020 a/A forms, inc. All rights reserved",
+  "questions": [
+    {
+      "type": "section",
+      "instructions": "to improve accuracy, answer each"
+    },
+    {
+      "code": "q1",
+      "type": "likert",
+      "stem": "i learn the most when the lesson engages my sense of <em>sight</em>",
+      "scale": "agreement"
+    }
+    {
+      "code": "q2",
+      "type": "likert",
+      "stem": "i learn the most when the lesson engages my sense of <em>hearing</em>",
+      "scale": "agreement"
+    }
+    {
+      "code": "q3",
+      "type": "likert",
+      "stem": "i learn the most when the lesson engages my sense of <em>touch</em>",
+      "scale": "agreement",
+      "pagebreak": true
+    }
+  ]
+}

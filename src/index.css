@@ -1,1 +1,20 @@
-/* TODO Add site wide styles */
+.form-buttons {
+  margin: 24px 0;
+  display: block;
+}
+
+.inventory-question {
+  display: flex;
+  flex-direction: row;
+  margin: 12px;
+  max-width: 750px;
+}
+
+.inventory-prompt {
+  flex: 1 1 100%;
+  margin: 0 24px;
+}
+
+.inventory-select {
+  flex: 0 0 120px;
+}
