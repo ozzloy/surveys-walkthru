@@ -1,10 +1,16 @@
 import React, { useState } from "react";
+import { useInventoryContext } from "../contexts/InventoryProvider";
+import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 
 const Inventory = () => {
+  const { setQValues } = useInventoryContext();
+  const history = useHistory();
   const [values, setValues] = useState({});
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setQValues(values);
+    history.push("/report");
   };
 
   return (
